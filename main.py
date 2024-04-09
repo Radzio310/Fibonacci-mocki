@@ -10,3 +10,4 @@ def Fibonacci(num):
 
 element = int(input("Który element ciągu chcesz wyświetlić? "))
 print(f"{element}. elementem ciągu jest liczba {Fibonacci(element)}")
+
