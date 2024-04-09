@@ -5,7 +5,9 @@ fib.append(1)
 
 # funkcja rekurencyjna ciągu fibonacciego
 def Fibonacci(num):
-    if num == 1 or num == 2:
+    if num <= 0:
+        return -1
+    elif num == 1 or num == 2:
         return 1
     else:
         return Fibonacci(num-1) + Fibonacci(num-2)
