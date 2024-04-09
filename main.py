@@ -1,7 +1,9 @@
+# Zdefiniowanie tablicy i pierwszych dwóch elementów
 fib = []
 fib.append(1)
 fib.append(1)
 
+# funkcja rekurencyjna ciągu fibonacciego
 def Fibonacci(num):
     if num == 1 or num == 2:
         return 1
